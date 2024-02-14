@@ -70,7 +70,7 @@ function App() {
         </div>
         <div
           id="stack presentation"
-          className="container mx-auto py-9 md:py-12 px-4 md:px-6 opacity-90"
+          className="container mx-auto py-9 md:py-12 px-4 md:px-6"
         >
           <div
             data-aos="fade-up"
@@ -173,7 +173,7 @@ function App() {
           </p>
         </div>
         <section id="projects" className="py-16">
-          <div data-aos="fade-up" className="container mx-auto px-4 mt-20">
+          <div data-aos="fade-up" className="container mx-auto px-4 mt-20 lg:">
             <h2 className="text-5xl font-dosis mb-20 text-center text-custom-white opacity-90">
               🚀 <p className="p-5">Projects</p>
             </h2>
