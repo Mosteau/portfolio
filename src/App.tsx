@@ -178,6 +178,61 @@ function App() {
               🚀 <p className="p-5">Projects</p>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="hover:scale-105 transition-all">
+                <div
+                  data-aos="fade-up"
+                  className="bg-neutral-300 rounded-2xl overflow-hidden m-4 flex flex-col justify-center items-center"
+                >
+                  <a
+                    href="https://smartflow-app.com"
+                    target="_blank"
+                    className="block text-black-600 mt-4"
+                  >
+                    <img
+                      src="./images/projets/smartflow.svg"
+                      alt="Project Image"
+                      className="object-contain h-40 w-3/4 inline-block"
+                    ></img>
+                    <div className="pt-4 pb-4">
+                      <h3 className="text-2xl font-dosis  mb-4 opacity-90">
+                        Smartflow
+                      </h3>
+                      <div className="flex justify-center flex-wrap">
+                        <img
+                          src="./images/logos/iconscard/nextjs.png"
+                          alt="nextjs"
+                          title="nextjs"
+                          className="p-2 object-contain opacity-80"
+                        />
+                        <img
+                          src="./images/logos/iconscard/prisma.png"
+                          alt="prisma"
+                          title="prisma"
+                          className="p-2 object-contain opacity-80"
+                        />
+                        <img
+                          src="./images/logos/iconscard/postgresql.png"
+                          alt="postgresql"
+                          title="postgresql"
+                          className="p-2 object-contain opacity-80"
+                        />
+                        <img
+                          src="./images/logos/iconscard/typescript.png"
+                          alt="typescript"
+                          title="typescript"
+                          className="p-2 object-contain opacity-80"
+                        />
+                        <img
+                          src="./images/logos/iconscard/tailwind.png"
+                          alt="tailwind"
+                          title="tailwind"
+                          className="p-2 object-contain opacity-80"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
               <div className="hover:scale-105 transition-all">
                 <div
                   data-aos="fade-up"
