@@ -3,7 +3,6 @@ import "./App.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-
 function App() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -17,11 +16,11 @@ function App() {
     });
   }, []);
 
+
   return (
     <div
-      className={`transition-opacity duration-500 ${
-        isVisible ? "opacity-100" : "opacity-0"
-      }`}
+      className={`transition-opacity duration-500 ${isVisible ? "opacity-100" : "opacity-0"
+        }`}
     >
       <div
         id="page-global"
@@ -31,13 +30,6 @@ function App() {
           id="navbar"
           className="flex flex-wrap justify-around items-center mx-auto opacity-90"
         >
-          <a
-            href="/CV2024.pdf"
-            className="font-dosis text-custom-white text-2xl hover:text-red-500 transform hover:scale-110 transition-transform"
-            target="_blank"
-          >
-            My CV
-          </a>
           <a
             href="https://linkedin.com/in/thibaut-mosteau"
             className="font-dosis text-custom-white text-2xl hover:text-red-500 transform hover:scale-110 transition-transform"
@@ -52,12 +44,6 @@ function App() {
           >
             GitHub
           </a>
-          <a
-            href="mailto:thibaut.mosteau@gmail.com"
-            className="font-dosis text-custom-white text-2xl hover:text-red-500 transform hover:scale-110 transition-transform"
-          >
-            <p className=""></p>Contact me
-          </a>{" "}
         </div>
         <div id="title" className="mt-20 opacity-90">
           <h1 className="text-6xl text-custom-white p-10 font-dosis">
@@ -178,7 +164,7 @@ function App() {
               🚀 <p className="p-5">Projects</p>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div className="hover:scale-105 transition-all">
+              <div className="hover:scale-105 transition-all">
                 <div
                   data-aos="fade-up"
                   className="bg-neutral-300 rounded-2xl overflow-hidden m-4 flex flex-col justify-center items-center"
