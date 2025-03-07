@@ -67,7 +67,7 @@ function App() {
             </h1>
             <div className="">
               <p className="text-2xl lg:text-3xl text-gray-800 dark:text-custom-white mt-2 p-5 font-dosis ">
-                Linux - JavaScript - TypeScript - Next.js - React.js - Css -
+                Linux - JavaScript - PHP - React.js - Symfony - Laravel - Drupal - Angular - Vue 3
                 Sass - Tailwind - Node.js - Express - Postgresql - Mysql
               </p>
             </div>
